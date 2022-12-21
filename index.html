@@ -790,17 +790,19 @@
 							</div>
 	
 							<div class="footer-bottom text-left row">
-								<div class="col-md-12 col-sm-12 text-left p-lr30"> 
-									<span>Copyright &copy; 2023 runalb.com | All Rights Reserved.</span>
-									<br> 
-									<span>This Website is Developed & Maintained by Runal Banarse</span> 
+								<div class="col-md-12 col-sm-12 text-center p-lr30">
+									<span>This Website is Developed & Maintained by <br>  Runal Banarse - runalb.com </span>
+									<br><br>
+									<span>Copyright &copy;</span> 
+									<span id="currentYear"></span> 
+									<span> BeautiPro | All Rights Reserved.</span>
 									<div class="widget-link m-t10 "> 
 										<ul>
 											<li><a href="index.html"> Home</a></li> 
 											<li><a href="#"> Services</a></li> 
 											<li><a href="#"> Gallery</a></li> 
 											<li><a href="#"> Our Team</a></li>
-											<li><a href="#">Offers</a></li>  
+											<li><a href="#"> Offers</a></li>  
 											<li><a href="#"> Contact Us</a></li> 
 										</ul>
 									</div>
@@ -816,7 +818,15 @@
 
 		<button class="scroltop fa fa-chevron-up" ></button>
 	</div>
+
+
 <!-- JAVASCRIPT FILES ========================================= -->
+<script>
+	let footerYear = document.getElementById("currentYear");
+	let year = new Date().getFullYear();
+	footerYear.innerText = year;
+</script>
+
 <script src="js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
 <script src="plugins/wow/wow.js"></script><!-- WOW JS -->
 <script src="plugins/bootstrap/js/popper.min.js"></script><!-- BOOTSTRAP.MIN JS -->
