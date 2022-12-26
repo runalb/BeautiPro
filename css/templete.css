@@ -1437,7 +1437,7 @@
 /* New Css */
 .site-footer .footer-bottom span,
 .site-footer .footer-bottom a{
-	opacity: 0.7;
+	opacity: 1.0;
 }
 .widget.widget_getintuch strong{
 	font-weight: 700;
