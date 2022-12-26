@@ -10781,7 +10781,7 @@ footer p a {
 
 footer a,
 footer a:visited {
-    color: #fff;
+    /* color: #fff; */
 }
 footer p a {
     color: #fff;
@@ -10865,7 +10865,7 @@ footer .widget_services ul li {
     color: #fff;
     font-size: 14px;
 	border-top:1px solid rgba(255,255,255,0.05);
-	text-transform:capitalize !important;
+	/* text-transform:capitalize !important; */
 }
 .footer-bottom ul {
     margin: 0;
