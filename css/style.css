@@ -10776,20 +10776,20 @@ footer h4 a,
 footer h5 a,
 footer h6 a,
 footer p a {
-    color: #fff;
+     color: #ff5ea5;
 }
 
-/* footer a,
+footer a,
 footer a:visited {
-    color: #fff;
-} */
+    color: #ff5ea5;
+}
 footer p a {
     color: #fff;
 }
 footer a:active,
 footer a:focus,
 footer a:hover {
-    color: #fff;
+    color: #ff5ea5;
 }
 /* widget color */
 footer .widget_categories ul li a,
