@@ -66,12 +66,12 @@
 						<!-- main nav -->
 						<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
 							<ul class="nav navbar-nav">	
-								<li class="active"><a href="#">Home</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Gallery</a></li>
-								<li><a href="#">Our Team</a></li>
-								<li><a href="#">Offers</a></li>
-								<li><a href="#">Contact us</a></li>
+								<li class="active"><a href="#Home">Home</a></li>
+								<li><a href="#Services">Services</a></li>
+								<li><a href="#Gallery">Gallery</a></li>
+								<li><a href="#OurTeam">Our Team</a></li>
+								<li><a href="#Offers">Offers</a></li>
+								<li><a href="#ContactUs">Contact Us</a></li>
 							</ul>		
 						</div>
 					</div>
@@ -83,7 +83,7 @@
 
 		
 		<!-- Content -->
-		<div class="page-content bg-black">
+		<div class="page-content bg-black"  id="Home">
 			
 			<!-- Main Slider -->
 			<div class="rev-slider">
@@ -315,7 +315,7 @@
 
 
 			<!-- Our Services -->
-			<div class="section-full content-inner-2 bg-black overlay-black-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+			<div id="Services" class="section-full content-inner-2 bg-black overlay-black-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-head text-white text-center">
 						<h2 class="text-primary m-b10">Our Services</h2>
@@ -480,7 +480,7 @@
 
 
 			<!-- Our Gallery -->
-			<div class="section-full content-inner-2 our-portfolio" style="background-image:url(images/background/bg6.jpg); background-size: cover;">
+			<div id="Gallery" class="section-full content-inner-2 our-portfolio" style="background-image:url(images/background/bg6.jpg); background-size: cover;">
 				<div class="container">
 					<div class="section-head text-black text-center m-b20">
 						<h2 class="text-primary m-b10">Our Gallery</h2>
@@ -596,7 +596,7 @@
 
 
 			<!-- Our Professional Team -->
-			<div class="section-full content-inner-2 overlay-black-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+			<div id="OurTeam" class="section-full content-inner-2 overlay-black-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-head text-white text-center">
 						<h2 class="text-primary m-b10">Our Professional Team</h2>
@@ -659,67 +659,69 @@
 
 
 			<!-- Offers Popup Carousel -->
-			<div class="container">
-				<div class="section-head text-white text-center">
-					<h2 class="text-primary m-b10">Offers</h2>
-					<div class="dlab-separator-outer m-b0">
-						<div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+			<div id="Offers" class="section-full content-inner-2 overlay-black-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+				<div class="container">
+					<div id="Offers" class="section-head text-white text-center">
+						<h2 class="text-primary m-b20">Offers</h2>
+						<div class="dlab-separator-outer m-b0">
+							<div class="dlab-separator text-primary style-icon"><i class="flaticon-spa text-primary"></i></div>
+						</div>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
 					</div>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
-				</div>
-				<div class="section-content text-center">
-					<div class="owl-carousel img-carousel-content owl-btn-1 primary mfp-gallery owl-btn-center-lr ">
-						<div class="item">
-							<div class="dlab-box dlab-gallery-box">
-								<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
-									<img src="images/gallery/pic1.jpg"  alt=""> </a>
-									<div class="overlay-bx">
-										<div class="overlay-icon"> 
-											<a href="images/gallery/pic1.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
-												<i class="ti-fullscreen icon-bx-xs"></i>
-											</a>
+					<div class="section-content text-center">
+						<div class="owl-carousel img-carousel-content owl-btn-1 primary mfp-gallery owl-btn-center-lr ">
+							<div class="item">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
+										<img src="images/gallery/pic1.jpg"  alt=""> </a>
+										<div class="overlay-bx">
+											<div class="overlay-icon"> 
+												<a href="images/gallery/pic1.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
+													<i class="ti-fullscreen icon-bx-xs"></i>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item">
-							<div class="dlab-box dlab-gallery-box">
-								<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
-									<img src="images/gallery/pic2.jpg"  alt=""> </a>
-									<div class="overlay-bx">
-										<div class="overlay-icon"> 
-											<a href="images/gallery/pic2.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
-												<i class="ti-fullscreen icon-bx-xs"></i>
-											</a>
+							<div class="item">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
+										<img src="images/gallery/pic2.jpg"  alt=""> </a>
+										<div class="overlay-bx">
+											<div class="overlay-icon"> 
+												<a href="images/gallery/pic2.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
+													<i class="ti-fullscreen icon-bx-xs"></i>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item">
-							<div class="dlab-box dlab-gallery-box">
-								<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
-									<img src="images/gallery/pic3.jpg"  alt=""> </a>
-									<div class="overlay-bx">
-										<div class="overlay-icon"> 
-											<a href="images/gallery/pic3.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
-												<i class="ti-fullscreen icon-bx-xs"></i>
-											</a>
+							<div class="item">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
+										<img src="images/gallery/pic3.jpg"  alt=""> </a>
+										<div class="overlay-bx">
+											<div class="overlay-icon"> 
+												<a href="images/gallery/pic3.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
+													<i class="ti-fullscreen icon-bx-xs"></i>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item">
-							<div class="dlab-box dlab-gallery-box">
-								<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
-									<img src="images/gallery/pic4.jpg"  alt=""> </a>
-									<div class="overlay-bx">
-										<div class="overlay-icon"> 
-											<a href="images/gallery/pic4.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
-												<i class="ti-fullscreen icon-bx-xs"></i>
-											</a>
+							<div class="item">
+								<div class="dlab-box dlab-gallery-box">
+									<div class="dlab-thum dlab-img-overlay1 dlab-img-effect zoom-slow"> <a href="javascript:void(0);"> 
+										<img src="images/gallery/pic4.jpg"  alt=""> </a>
+										<div class="overlay-bx">
+											<div class="overlay-icon"> 
+												<a href="images/gallery/pic4.jpg" class="mfp-link" title="DexignZone" title="Image title come here"> 
+													<i class="ti-fullscreen icon-bx-xs"></i>
+												</a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -730,7 +732,7 @@
 			</div>
 			<!-- Offers Popup Carousel END -->
 
-
+			<div id="ContactUs"></div>
 
 		</div>
 		<!-- Content END-->
