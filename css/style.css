@@ -12900,10 +12900,11 @@ ol.commentlist li .star-rating {
 		max-width: 100%;
 		padding: 30px 15px;
 		width: 100%;
+        background-color: #000000;
 	}
 	.mo-left .header-nav .logo-header img{
 		max-width: unset;
-		width: 130px;
+		/* width: 130px; */
 	}
 	.mo-left .navbar-toggler.open span{
 		background:#fff;
